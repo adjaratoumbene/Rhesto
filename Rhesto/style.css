@@ -76,7 +76,25 @@ header .navbar li a:hover{
     background-image: url(./images/pageheader-banner.jpg);
     background-size: cover;
 }
-
+.lien{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/imagelien2.jpg);
+    background-size: cover;
+}
+.lien .contenu h2{
+    color: #FFE4C4  ;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+.lien .contenu{
+    max-width: 70%;
+    text-align: center;
+}
 .banniere .contenu{
     max-width: 70%;
     text-align: center;
@@ -311,7 +329,17 @@ section{
 .blanc p{
     color: #fff;
 }
-
+.Inscription{
+    background-image: url(./images/imagelien.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0, 0.8);
+    width: 100%;
+    background-position: unset;
+}
+.Inscription .titre-text span{
+    color: #A52A2A;
+    font-size: 2em;
+}
 .contact{
     background-image: url(./images/img-form.jpg);
     background-size: cover;
