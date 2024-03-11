@@ -1,6 +1,7 @@
 Présentation
 Bienvenue sur la page officielle de Resto Le Bistro, une oasis culinaire nichée au cœur de la ville. Notre restaurant vous invite à découvrir des plats délicieux, créés avec passion et savoir-faire, dans une ambiance chaleureuse et élégante.
 Voici les fonctionnalités du Site
+	
 Accueil : Découvrez l'esprit de notre restaurant et plongez dans une expérience culinaire unique dès la page d'accueil.
 Inscription : Rejoignez notre communauté en vous inscrivant directement sur notre site pour bénéficier d'offres exclusives.
 Menu : Explorez notre menu diversifié, mettant en avant des produits frais et locaux pour ravir tous les palais.
