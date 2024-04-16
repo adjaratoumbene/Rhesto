@@ -82,7 +82,7 @@ function resetBoard() {
 
 // Fonction pour mélanger les cartes
 (function shuffle() {
-    // Code pour mélanger les cartes
+    
 })();
 
 // Ajouter des écouteurs d'événements à toutes les cartes
@@ -133,8 +133,7 @@ function deplacerTexte() {
     let position = parseFloat(texteElement.style.left);
 
     // Augmenter la position de défilement (vous pouvez ajuster la vitesse ici)
-    position -= 1; // Vous pouvez ajuster la vitesse en modifiant cette valeur
-
+    position -= 1; 
     // Vérifier si le texte a atteint la fin de la bande passante
     const largeurBandePassante = document.querySelector('.bande-passante').offsetWidth;
     const largeurTexte = texteElement.offsetWidth;
@@ -148,4 +147,4 @@ function deplacerTexte() {
 }
 
 // Appeler la fonction de déplacement toutes les X millisecondes pour créer l'animation
-setInterval(deplacerTexte, 50); // Vous pouvez ajuster la fréquence de rafraîchissement ici
+setInterval(deplacerTexte, 50); 
