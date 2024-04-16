@@ -1,5 +1,4 @@
-
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -7,12 +6,55 @@
     scroll-behavior: smooth;
 }
 
-p{
+p {
     font-weight: 300;
-    color: #111 ;
+    color: #2f2f2f;
 }
+  .form-container {
+    background-color: #ffffff;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 
-header{
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-group label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+   .form-group input[type="radio"],
+  .form-group input[type="checkbox"] {
+    vertical-align: middle;
+  }
+
+  .button {
+    background-color: #c0392b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .button:hover {
+    background-color: #e74c3c;
+  }
+
+  .checkbox-group {
+    margin-bottom: 10px;
+  }
+
+
+header {
     position: fixed;
     top: 0%;
     left: 0%;
@@ -25,48 +67,51 @@ header{
     transition: 0.5s;
 }
 
-.logo{
-    color:#A52A2A;
+.logo {
+    color: #A52A2A;
     font-weight: bold;
     font-size: 2em;
     text-decoration: none;
 }
-.logo span{
-    color: #A52A2A  ;
+
+.logo span {
+    color: #A52A2A;
 }
 
-.navbar{
+.navbar {
     display: flex;
     position: relative;
 }
-.navbar li{
+
+.navbar li {
     list-style: none;
 }
-.navbar a{
+
+.navbar a {
     color: #A52A2A;
     text-decoration: none;
     margin-left: 30px;
     font-weight: 700;
 }
 
-.btn-reserve{
+.btn-reserve {
     padding: 10px 20px;
     background: #fff;
-   margin-top: -10px;
-   text-transform:uppercase ;
+    margin-top: -10px;
+    text-transform: uppercase;
 }
 
-.btn-reserve:hover{
-    background: #00FFFF    ;
+.btn-reserve:hover {
+    background: #00FFFF;
     transition: ease-out;
 }
 
-header .navbar li a:hover{
+header .navbar li a:hover {
     color: #fb911f;
     border-bottom: 2px solid #A52A2A;
 }
 
-.banniere{
+.banniere {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -76,7 +121,8 @@ header .navbar li a:hover{
     background-image: url(./images/pageheader-banner.jpg);
     background-size: cover;
 }
-.lien{
+
+.lien {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -86,30 +132,35 @@ header .navbar li a:hover{
     background-image: url(./images/imagelien2.jpg);
     background-size: cover;
 }
-.lien .contenu h2{
-    color: #FFE4C4  ;
+
+.lien .contenu h2 {
+    color: #FFE4C4;
     font-size: 2em;
     text-transform: capitalize;
 }
-.lien .contenu{
+
+.lien .contenu {
     max-width: 70%;
     text-align: center;
 }
-.banniere .contenu{
+
+.banniere .contenu {
     max-width: 70%;
     text-align: center;
 }
-.banniere .contenu h2{
-    color: #FFE4C4  ;
+
+.banniere .contenu h2 {
+    color: #FFE4C4;
     font-size: 3em;
     text-transform: capitalize;
 }
-.contenu p:nth-child(2){
+
+.contenu p:nth-child(2) {
     color: #ffff;
     font-size: 1.2em;
 }
 
-.btn1{
+.btn1 {
     font-size: 1em;
     color: #fff;
     background: #A52A2A;
@@ -122,7 +173,8 @@ header .navbar li a:hover{
     transition: 0.5s;
     margin-left: 10px;
 }
-.btn2{
+
+.btn2 {
     font-size: 1em;
     color: #fff;
     background: #2a4963;
@@ -136,51 +188,52 @@ header .navbar li a:hover{
     margin-left: 10px;
 }
 
-.btn1:hover{
-letter-spacing: 4px;
+.btn1:hover {
+    letter-spacing: 4px;
 }
-section{
+
+section {
     padding: 100px;
 }
-.row{
+
+.row {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.row .col50{
+.row .col50 {
     position: relative;
     width: 48%;
     justify-content: center;
     align-items: center;
-
 }
 
-.row .col50 h2{
+.row .col50 h2 {
     margin-bottom: 20px;
 }
 
-.titre-texte{
+.titre-texte {
     color: #000;
     font-size: 2em;
     font-weight: 300px;
     text-transform: capitalize;
 }
 
-.titre-texte span{
+.titre-texte span {
     color: #A52A2A;
     font-size: 1.5em;
     font-weight: 700px;
 }
 
-.row .col50 img{
+.row .col50 img {
     height: 450px;
     width: 600px;
     position: relative;
 }
 
-.titre{
+.titre {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -188,31 +241,31 @@ section{
     flex-direction: column;
 }
 
-.menu{
+.menu {
     margin-top: -100px;
 }
 
-.menu .contenu{
+.menu .contenu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
 }
 
-.menu .contenu .box{
+.menu .contenu .box {
     width: 350px;
     margin: 20px;
     border: 20px solid #fff;
-    box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+    box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.8);
 }
 
-.menu .contenu .box .imbox{
+.menu .contenu .box .imbox {
     position: relative;
     width: 100%;
     height: 300px;
 }
 
-.menu .contenu .box .imbox img{
+.menu .contenu .box .imbox img {
     position: relative;
     top: 0;
     left: 0;
@@ -221,32 +274,33 @@ section{
     object-fit: cover;
 }
 
-.menu .contenu .box .text{
+.menu .contenu .box .text {
     text-align: center;
     font-weight: 300px;
     color: #111;
 }
 
-.menu .contenu .box .text h3{
+.menu .contenu .box .text h3 {
     font-weight: 400;
 }
 
-.expert{
-    margin-top:-100px;
+.expert {
+    margin-top: -100px;
 }
 
-.expert .contenu{
+.expert .contenu {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 40px;
 }
 
-.expert .contenu .box{
+.expert .contenu .box {
     width: 250px;
     margin: 15px;
 }
-.expert .contenu .box img{
+
+.expert .contenu .box img {
     position: relative;
     width: 100%;
     height: 300px;
@@ -255,18 +309,18 @@ section{
     object-fit: cover;
 }
 
-.expert .contenu .box h3{
+.expert .contenu .box h3 {
     color: #111;
     font-weight: 400;
     text-align: center;
 }
 
-.temoignage{
+.temoignage {
     background-image: url(./images/bg2.jpg);
     background-size: cover;
 }
 
-.temoignage .contenu{
+.temoignage .contenu {
     display: flex;
     margin-top: 40px;
     width: 100%;
@@ -276,7 +330,7 @@ section{
     flex-direction: row;
 }
 
-.temoignage .contenu .box{
+.temoignage .contenu .box {
     width: 340px;
     margin: 20px;
     background: #fff;
@@ -288,7 +342,7 @@ section{
     padding: 40px;
 }
 
-.temoignage .contenu .box .imbox{
+.temoignage .contenu .box .imbox {
     width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -297,61 +351,64 @@ section{
     overflow: hidden;
 }
 
-.temoignage .contenu .box .imbox img{
+.temoignage .contenu .box .imbox img {
     position: relative;
     width: 100%;
     height: 100%;
-    top:0;
+    top: 0;
     left: 0;
     object-fit: cover;
     justify-content: center;
     align-items: center;
 }
 
-.temoignage .contenu .box .text{
+.temoignage .contenu .box .text {
     text-align: center;
     color: #666;
     font-style: italic;
 }
 
-.temoignage .contenu .box .text h3{
+.temoignage .contenu .box .text h3 {
     color: #A52A2A;
     margin-top: 20px;
     font-size: 1em;
     font-weight: 600;
 }
 
-.blanc .titre-texte{
+.blanc .titre-texte {
     color: #fff;
 }
 
 .blanc .titre-texte,
-.blanc p{
+.blanc p {
     color: #fff;
 }
-.Inscription{
+
+.Inscription {
     background-image: url(./images/imagelien.jpg);
     background-size: cover;
-    box-shadow: 2px 2px 12px rgba(0,0,0, 0.8);
-    width: 100%;
-    background-position: unset;
-}
-.Inscription .titre-text span{
-    color: #A52A2A;
-    font-size: 2em;
-}
-.contact{
-    background-image: url(./images/img-form.jpg);
-    background-size: cover;
-    box-shadow: 2px 2px 12px rgba(0,0,0, 0.8);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
     width: 100%;
     background-position: unset;
 }
 
-.contactform{
+.Inscription .titre-text span {
+    color: #A52A2A;
+    font-size: 2em;
+}
+
+.contact {
+    background-image: url(./images/img-form.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    background-position: unset;
+}
+
+.contactform {
     padding: 75px 50px;
     background: #fff;
-    box-shadow: 5px 15px 50px rgba(0,0,0, 0.8);
+    box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
     max-width: 500px;
     margin-top: 50px;
     justify-content: center;
@@ -359,20 +416,20 @@ section{
     margin-left: 38%;
 }
 
-.contactform .inputboite{
+.contactform .inputboite {
     position: relative;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.contactform h3{
+.contactform h3 {
     color: #111;
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 
 .contactform .inputboite input,
-.contactform .inputboite textarea{
+.contactform .inputboite textarea {
     width: 100%;
     border: 1px solid #555;
     padding: 10px;
@@ -383,7 +440,7 @@ section{
     resize: none;
 }
 
-.contactform .inputboite input[type="submit"]{
+.contactform .inputboite input[type="submit"] {
     font-size: 1em;
     font-weight: 700;
     color: #ffff;
@@ -401,14 +458,14 @@ section{
     justify-content: center;
 }
 
-.copyright{
+.copyright {
     padding: 20px 40px;
-    border-top: 2px solid rgba(0,0,0, 0.1);
-    background: rgba(228,222,222,);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    background: rgba(228, 222, 222, );
     text-align: center;
 }
 
-.copyright p:nth-child(1){
+.copyright p:nth-child(1) {
     color: #333;
 }
 
@@ -419,18 +476,18 @@ section{
     font-style: italic;
 }
 
-.contact .titre-text span{
+.contact .titre-text span {
     color: #A52A2A;
     font-size: 2em;
 }
 
-header.sticky{
+header.sticky {
     background: #fff;
     padding: 10px 10px;
-    box-shadow: 0px 5px 20px rgba(0,0,0, 0.05);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.05);
 }
 
-header.sticky .logo{
+header.sticky .logo {
     color: #000;
 }
 
@@ -438,146 +495,548 @@ header.sticky .navbar li a {
     color: #000;
 }
 
-header.sticky li a:hover{
+header.sticky li a:hover {
     color: #fb911f;
     border-bottom: 2px solid #fb911f;
 }
 
 @media (max-width: 991px) {
-header, 
-header.sticky{
-    padding: 10px 20px;
-}
-
-header .navbar li{
-    margin-left: 0px;
-}
-
-header .navbar li a {
-    text-decoration: none;
-    color: #111;
-    font-size: 1.6em;
-    font-weight: 300;
-}
-
-.navbar{
-    display: none;
-}
-section{
-    padding: 20px;
-}
-
-header .navbar.active{
-    width: 100%;
-    height: calc(100% -68px);
-    position: fixed;
-    top: 68px;
-    left:0;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background: #ffff;
-    align-items: center;
-}
-
-.menuToggle{
-    position: relative;
-    width: 40px;
-    height: 40px;
-    background-image: url(./images/menu.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-    background-size: 30px;
-}
-
-.menuToggle.active
-{
-    background-image: url(./images/close.png);
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-origin: center;
-}
-
-header.sticky .menuToggle{
-    filter: invert(1);
-}
-
-
-.banniere .contenu h2{
-    font-size: 2em;
-}
-
-.row .col50 img{
-    margin-left: 18%;
-}
-
-.contenu p:nth-child(2){
-    font-size: 1.2em;
-}
-.expert{
-    margin-top: 0px;
-}
-
-.menu{
-    margin-top: 0px;
-}
-
-.row{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.temoignage h2{
-    font-size: 2em;
-    text-align: center;
-}
-
-.temoignage p{
-text-align: center;
-}
-
-.contactform{
-    margin-left: 25%;
-}
-
-
+    header,
+    header.sticky {
+        padding: 10px 20px;
+    }
+    header .navbar li {
+        margin-left: 0px;
+    }
+    header .navbar li a {
+        text-decoration: none;
+        color: #111;
+        font-size: 1.6em;
+        font-weight: 300;
+    }
+    .navbar {
+        display: none;
+    }
+    section {
+        padding: 20px;
+    }
+    header .navbar.active {
+        width: 100%;
+        height: calc(100% -68px);
+        position: fixed;
+        top: 68px;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: #ffff;
+        align-items: center;
+    }
+    .menuToggle {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background-image: url(./images/menu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        background-size: 30px;
+    }
+    .menuToggle.active {
+        background-image: url(./images/close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-origin: center;
+    }
+    header.sticky .menuToggle {
+        filter: invert(1);
+    }
+    .banniere .contenu h2 {
+        font-size: 2em;
+    }
+    .row .col50 img {
+        margin-left: 18%;
+    }
+    .contenu p:nth-child(2) {
+        font-size: 1.2em;
+    }
+    .expert {
+        margin-top: 0px;
+    }
+    .menu {
+        margin-top: 0px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .temoignage h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    .temoignage p {
+        text-align: center;
+    }
+    .contactform {
+        margin-left: 25%;
+    }
     .row .col50 {
         position: relative;
         width: 100%;
         justify-content: center;
         align-items: center;
         margin-bottom: 30px;
-    
     }
-
-    .row{
+    .row {
         flex-direction: column;
     }
 }
 
-@media (max-width: 480px)
-{
-    .banniere .contenu h2{
+@media (max-width: 480px) {
+    .banniere .contenu h2 {
         font-size: 2.2em;
         color: #fff;
     }
-
-    .titre-text{
+    .titre-text {
         color: #000;
         font-size: 2rem;
         font-weight: 300;
         text-transform: capitalize;
     }
-
-    .temoignage h2 
-    {
+    .temoignage h2 {
         font-size: 1.1em;
     }
-
-    .temoignage p{
+    .temoignage p {
         text-align: center;
     }
+}
+
+
+/* Reset des styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #7d9ec0;
+    /* Couleur de fond */
+}
+
+
+/* En-tÃªte */
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#logo {
+    float: left;
+    margin-right: 20px;
+}
+
+#logo img {
+    max-width: 50px;
+    display: block;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Container */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+
+/* Centering content */
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col50 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Media query for smaller screens */
+
+@media (max-width: 768px) {
+    .col50 {
+        width: 100%;
+    }
+}
+
+footer {
+    position: relative;
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.footer-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(to right, #ff0000, #ff8c00, #ffff00, #008000, #0000ff);
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+
+/* Animation multicolore pour le pied de page */
+
+.footer-multicolor {
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00f2);
+    background-size: 200% 200%;
+    animation: multicolor 10s ease infinite;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+/* Définition de l'animation */
+
+@keyframes multicolor {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+/* Styles pour les écrans plus petits que 600px */
+
+@media screen and (max-width: 600px) {
+    /* Ajoutez vos styles CSS pour les petits écrans ici */
+}
+
+
+/* Styles pour les écrans entre 600px et 900px */
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    /* Ajoutez vos styles CSS pour les écrans moyens ici */
+}
+
+
+/* Styles pour les écrans plus grands que 900px */
+
+@media screen and (min-width: 900px) {
+    /* Ajoutez vos styles CSS pour les grands écrans ici */
+}
+
+
+/* Styles CSS */
+
+.memory-card {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    background-color: #f0f0f0;
+}
+
+#colorful-box {
+    width: 100%;
+    height: 100%;
+    animation: colorfulAnimation 5s infinite;
+}
+
+@keyframes colorfulAnimation {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    75% {
+        background-color: green;
+    }
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes multicolor {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: orange;
+    }
+}
+
+.multicolor-animation {
+    animation: multicolor 5s infinite;
+}
+
+.responsive-image {
+    max-width: 100%;
+    /* La largeur maximale de l'image est égale à la largeur de son conteneur */
+    height: auto;
+    /* La hauteur s'ajuste automatiquement pour conserver les proportions de l'image */
+}
+
+
+/* Exemple d'utilisation */
+
+.img-container {
+    width: 80%;
+    /* Largeur du conteneur d'image */
+    margin: 0 auto;
+    /* Centrer le conteneur horizontalement */
+}
+
+.img-container img {
+    width: 100%;
+    /* Les images à l'intérieur du conteneur occupent toute la largeur disponible */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+
+/* Set default font size and line height */
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* Adjust layout for screens smaller than 768px */
+
+@media (max-width: 768px) {
+    /* Stack columns vertically */
+    .col {
+        width: 100%;
+    }
+    /* Hide unnecessary elements */
+    .hide-on-mobile {
+        display: none;
+    }
+    /* Adjust font size */
+    body {
+        font-size: 14px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* Ajoutez d'autres styles selon vos besoins */
+}
+
+.memory-game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    margin: 0 auto;
+}
+
+.memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.memory-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+}
+
+.front-face {
+    transform: rotateY(0deg);
+}
+
+.back-face {
+    transform: rotateY(180deg);
+}
+
+#textToChange {
+    font-size: 16px;
+}
+
+
+/* Styles pour le jeu de Memory */
+
+.memory-game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto;
+}
+
+.memory-card {
+    width: calc(25% - 10px);
+    height: 150px;
+    /* Ajustez la hauteur selon vos besoins */
+    margin: 5px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+
+input[type="color"],
+input[type="range"] {
+    margin-top: 20px;
+}
+
+#textToChange {
+    margin-top: 20px;
+}
+
+
+/* Styles pour le jeu de Memory */
+
+.memory-card {
+    /* Autres styles */
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+
+
+/* Style pour la bande passante */
+
+.bande-passante {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* Hauteur de la bande passante */
+    background-color: #f0f0f0df;
+    /* Couleur de fond */
+}
+
+.texte {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    /* Démarre à droite de la bande passante */
+    white-space: nowrap;
+    animation: defilement 10s linear infinite;
+    /* Durée et style de l'animation */
+}
+
+@keyframes defilement {
+    0% {
+        left: 100%;
+    }
+    /* Démarre à droite */
+    100% {
+        left: -100%;
+    }
+    /* Se termine à gauche */
 }
