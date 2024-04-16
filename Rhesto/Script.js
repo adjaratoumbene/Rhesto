@@ -132,7 +132,7 @@ function deplacerTexte() {
     // Récupérer la position actuelle du texte
     let position = parseFloat(texteElement.style.left);
 
-    // Augmenter la position de défilement (vous pouvez ajuster la vitesse ici)
+    // Augmenter la position de défilement 
     position -= 1; 
     // Vérifier si le texte a atteint la fin de la bande passante
     const largeurBandePassante = document.querySelector('.bande-passante').offsetWidth;
