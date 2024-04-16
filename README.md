@@ -21,7 +21,7 @@ La page d'accueil présente le restaurant et invite à la découverte.
 
 Le menu montre la diversité des plats proposés, alliant tradition et innovation.
 ![image](https://github.com/adjaratoumbene/Rhesto/assets/162913142/5d95a485-b061-4ac6-9c3f-538a47107d98)
-[18:31, 16/04/2024] 
+ 
 
 
 Validation d'email et de numéro de téléphone :
